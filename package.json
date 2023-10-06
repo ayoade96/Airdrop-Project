@@ -1,0 +1,23 @@
+{
+  "name": "timidan-airdrop-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.0"
+  },
+  "dependencies": {
+    "@ethersproject/keccak256": "^5.7.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/merkle-tree": "^1.0.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "merkletreejs": "^0.3.10"
+  }
+}
